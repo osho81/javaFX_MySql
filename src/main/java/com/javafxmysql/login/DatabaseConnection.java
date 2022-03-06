@@ -10,10 +10,10 @@ public class DatabaseConnection {
     public Connection dbLink;
 
     public Connection getConnection() {
-        String dbName = "education"; // Currently only local on my computer
-        String dbUser = "osho81";
-        String dbPassword = "temporary123";
-        String url = "jdbc:mysql://localhost:3306/" + dbName;
+        String dbName = ""; // Enter mysql database name
+        String dbUser = ""; // Enter your mysql database connection root or other user
+        String dbPassword = ""; // Enter your mysql database connection
+        String url = "jdbc:mysql://localhost:3306/" + dbName; // Eventually change if remote db
 
         try { // If driver exist and OK...
             Class.forName("com.mysql.cj.jdbc.Driver");
