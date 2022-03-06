@@ -7,8 +7,6 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 // Practise project for improving java/javaFx/SceneBuilder with MySql
-// Basis for this project: https://www.youtube.com/watch?v=DH3dWzmkT5Y
-
 
 import java.io.IOException;
 
